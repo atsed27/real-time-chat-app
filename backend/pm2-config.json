@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "chat-backend",
+      "script": "dist/main.js",
+      "exec_mode": "cluster",
+      "instances": "max",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000,
+        "REDIS_HOST": "localhost",
+        "REDIS_PORT": "6379"
+      }
+    }
+  ]
+}
