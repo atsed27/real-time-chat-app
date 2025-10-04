@@ -14,9 +14,16 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  id       Int       @id @default(autoincrement())
+  username String    @unique
+  messages Message[]
+}
+
 model Message {
   id        Int      @id @default(autoincrement())
-  content   String
-  username  String
+  text      String
   createdAt DateTime @default(now())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
 }
