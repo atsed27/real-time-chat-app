@@ -26,7 +26,7 @@ export default function UsernameModal({ onSetUsername }: Props) {
           value={name}
           onChange={(e) => setName(e.target.value)}
           className="w-full p-2 rounded bg-gray-600 border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          placeholder="e.g., Alice"
+          placeholder="e.g., danilap"
         />
         <button
           type="submit"
