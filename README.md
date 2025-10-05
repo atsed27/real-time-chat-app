@@ -91,3 +91,23 @@ docker compose up -d --build
 
 # Stop all services
 docker compose down
+
+
+
+
+## 📷 Screenshots
+
+### 1. Frontend Chat UI
+![Frontend Chat UI](screenshots/frontend.png "Chat interface")
+
+### 2. Join Chat Room
+![Join Chat Room](screenshots/joinchatRoom.png "Joining a chat room")
+
+### 3. Example Message 1
+![Message Example 1](screenshots/message1.png "First message example")
+
+### 4. Example Message 2
+![Message Example 2](screenshots/messeg2.png "Second message example")
+
+### 5. PM2 Cluster
+![PM2 Cluster](screenshots/pm2_cluster.png "PM2 cluster mode view")
