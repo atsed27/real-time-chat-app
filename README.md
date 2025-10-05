@@ -98,7 +98,7 @@ docker compose down
 ## 📷 Screenshots
 
 ### 1. Frontend Chat UI
-![Frontend Chat UI](screenshots/frontend.png "Chat interface")
+![Frontend run](screenshots/frontend.png "Frontend server ")
 
 ### 2. Join Chat Room
 ![Join Chat Room](screenshots/joinchatRoom.png "Joining a chat room")
